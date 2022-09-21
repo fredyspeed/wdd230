@@ -12,7 +12,6 @@ img.left {
   height: 120px;
   background-color:#2E798A;
   border-radius: 7px;
-  -webkit-border-radius: 7px;
   padding: 10px;
   top:10%;
   left:15%;
@@ -33,9 +32,8 @@ img.left {
   
 
   background-color:#2E798A;
-  /*border: 1px solid #000000;*/
   border-radius: 7px;
-  -webkit-border-radius: 7px;
+  
   padding: 10px;
   top:10%;
   left:15%;
