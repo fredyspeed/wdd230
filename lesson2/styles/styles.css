@@ -1,0 +1,134 @@
+img.left {
+  width: 80px;
+  /*margin-right: 20px;
+  position: absolute;*/
+  top: 10%;
+  left: 10%;
+  float: left; 
+}
+
+.box {
+  width: 97%;
+  height: 120px;
+  background-color:#16414b;
+  border-radius: 7px;
+  padding: 10px;
+  top:10%;
+  left:15%;
+ 
+  
+}
+section {
+  border-radius: 7px;
+  
+}
+
+.text_white{
+  text-align:center;
+  color:#FFFFFF;
+   
+}
+
+.boxinner{
+  width: 100%;
+  min-height: 20px;
+  background-color:#66797d;
+  margin-top: 0%;
+
+}
+body {
+	font-size: 16px;
+  font-family: 'Lato', sans-serif;
+	/*font-family: "Sansita", Ubuntu, sans-serif;*/
+}
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #ffffff;
+}
+
+main section {
+	margin: 0.5rem;
+/*  margin-top: 0%;*/
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+
+.footer_page{
+  width: 97%;
+  height: 60px;
+  
+
+  background-color:#16414b;
+  border-radius: 7px;
+  
+  padding: 10px;
+  top:10%;
+  left:15%;
+}
+
+.rigths{
+  text-align:center;
+  font-size: 14px;
+  color:#FFFFFF;
+
+}
+
+.update{
+  text-align:center;
+  font-size: 12px;
+  color:#ffff00;
+}
+       
