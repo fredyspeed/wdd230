@@ -1,0 +1,47 @@
+@media only screen and (min-width: 40rem){
+    main {
+        display: grid;
+        grid-template-rows: 8rem 8rem 8rem 8rem 8rem;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    #section_one {
+        grid-row: 1;
+        grid-column: span 2;
+    }
+    
+    #section_four {
+        grid-row: 2;
+        grid-column: span 2;
+    }
+
+    #section_five {
+        grid-row: 3;
+        grid-column: span 2;
+        display:flex;
+        justify-content: space-between;
+    }
+    #section_six {
+        grid-row: 4;
+        grid-column: span 2;
+    }
+    
+    #section_two {
+        grid-row: 5;
+        grid-column: 1;
+        
+    }
+
+    #section_three {
+        grid-row: 5;
+        grid-column: 2;
+    }
+
+    aside {
+        width: 45%;
+        height: 6rem;
+        margin-left: .5rem 2vw;
+        
+    }
+}
