@@ -14,7 +14,7 @@
         listText.textContent = myItem;
         listItem.appendChild(listBtn);
         listBtn.innerHTML = '&#10060;';
-        listBtn.setAttribute
+        listBtn.setAttribute("aria-label","Remove "+myItem);
         list.appendChild(listItem);
 
         listBtn.addEventListener('click', () => {
