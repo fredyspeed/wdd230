@@ -2,7 +2,20 @@
 header {
     background-color: rgb(172, 244, 194);
 }
+nav a:hover {
+	background-color: rgb(94, 168, 116);
+}
 
+.navegation_menu{
+	display: flex;
+	align-items: flex-end;
+	
+}
+
+.active {
+	color:rgba(252, 252, 252);
+	background-color: rgb(113, 196, 138);
+}
 .header_first_line{
 	display: flex;
 	justify-content: space-between;
