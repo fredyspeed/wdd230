@@ -73,9 +73,10 @@
     }
 
     aside {
-        width: 81%;
+        width: 78%;
         height: 6rem;
-        margin-left: .5rem 2vw;
+        margin-left: .3rem;
+        
         
     } 
     #aside_three{

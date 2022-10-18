@@ -34,13 +34,13 @@ nav a:hover {
 	line-height:1.4;	
 }
 .banner_close {
-	background-color: none;
+	background-color: transparent;
 	border: none;
 	cursor: pointer;
 }
 .banner_text,
 .banner_close>span{
-	background-color: none;
+	background-color: transparent;
 	color: #ffffff;
 }
 
@@ -214,6 +214,10 @@ img{
 
 }
 
+#section_six, #section_four{
+	overflow: auto;
+}
+
 #text_content_aside {
 	overflow: auto;
 }
@@ -221,3 +225,4 @@ img{
 aside {
 	overflow: auto;
 }
+
