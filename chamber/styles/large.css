@@ -1,5 +1,6 @@
 @media only screen and (min-width: 64rem){
-    button {display:none;}
+    #hamburger_button {display:none;}
+
     
     .header_logo_and_menu{
         display: flex;

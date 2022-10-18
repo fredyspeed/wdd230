@@ -18,6 +18,14 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 let today = new Date();
 document.getElementById('year').textContent = (' '+today.getFullYear()+' ');
 document.getElementById('currentdate').textContent = (today.toLocaleDateString('en-US')) + '  '+today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+const day = today.getDay();
+console.log(day);
+if (day == 1 || day == 4){
+    const banner = document.querySelector(".banner").style.display ="flex";
+    banner
+}
+
+
 
 /* To interact with the menu */
 
@@ -34,3 +42,7 @@ x.onclick = toggleMenu;
 
 const button_x = document.getElementById("x_button");
 button_x.onclick = toggleMenu;
+
+document.querySelector(".banner_close").addEventListener("click",function(){
+    this.closest(".banner").style.display = "none";
+});
