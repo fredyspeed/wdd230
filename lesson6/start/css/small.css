@@ -17,6 +17,7 @@ header {
     padding: .5rem 2%;
     background-color: #ddd;
 }
+/*------- Added October 19 -----*/
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 header figure.logo {
