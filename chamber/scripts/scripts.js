@@ -20,7 +20,7 @@ document.getElementById('year').textContent = (' '+today.getFullYear()+' ');
 //document.getElementById('currentdate').textContent = (today.toLocaleDateString('en-US')) + '  '+today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
 const day = today.getDay();
 console.log(day);
-if (day == 1 || day == 4){
+if (day == 1 || day == 2){
     const banner = document.querySelector(".banner").style.display ="flex";
     //banner
 }
