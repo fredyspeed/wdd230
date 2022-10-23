@@ -17,7 +17,7 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 
 let today = new Date();
 document.getElementById('year').textContent = (' '+today.getFullYear()+' ');
-document.getElementById('currentdate').textContent = (today.toLocaleDateString('en-US')) + '  '+today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+//document.getElementById('currentdate').textContent = (today.toLocaleDateString('en-US')) + '  '+today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
 const day = today.getDay();
 console.log(day);
 if (day == 1 || day == 4){
@@ -27,6 +27,7 @@ if (day == 1 || day == 4){
 
 /* last modification */
 const date = new Date(document.lastModified);
+console.log((date.toLocaleDateString('en-US')) + '  '+date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds());
 document.getElementById('lastmodification').textContent = (date.toLocaleDateString('en-US')) + '  '+date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
 
 /* To interact with the menu */
