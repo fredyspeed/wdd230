@@ -3,7 +3,7 @@ header {
     background-color: rgb(172, 244, 194);
 }
 nav a:hover {
-	background-color: rgb(94, 168, 116);
+	background-color: rgb(77, 185, 109);
 }
 
 .navegation_menu{
@@ -15,7 +15,7 @@ nav a:hover {
 
 .active {
 	color:rgba(252, 252, 252);
-	background-color: rgb(113, 196, 138);
+	background-color: rgb(48, 114, 68);
 }
 .banner{
 	background-color: rgb(62, 107, 92);
@@ -116,6 +116,7 @@ main {
 
 section {
 	margin: .3rem 1vw;
+	padding: .9rem;
 	background-color: rgb(222, 243, 196);
 	/*padding: .2rem 2vw;*/
 	border: 1px solid rgb(165, 186, 139);
@@ -239,15 +240,20 @@ aside {
 }
 #sfirst_line_weather{
 	display:block;
-	margin: 0.5rem;
+	margin-top: 0;
 	align-items: center;
 	justify-content: center;
 }
 #second_line_weather{
 	display:block;
-	margin: 0.5rem;
+	padding-left: 0.5rem;
+	/*margin: 0.5rem;*/
 	align-items: center;
 	justify-content: center;
+}
+#section_three{
+	margin-top: 0em;
+	padding-top: 0em;
 }
 
 #weather_imagen_temperature{
