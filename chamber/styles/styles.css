@@ -205,7 +205,14 @@ img{
   }
 
 #section_three{
-	background-color: #ffffff;
+	display:flex;
+	background-color: #5e55e1;
+	color:#ffffff
+
+}
+
+#line_weather{
+	display: none;
 }
 
 #section_two{
@@ -224,5 +231,26 @@ img{
 
 aside {
 	overflow: auto;
+}
+
+#weather_imagen{
+	width: 50px;
+	height: auto;
+}
+#sfirst_line_weather{
+	display:block;
+	margin: 0.5rem;
+	align-items: center;
+	justify-content: center;
+}
+#second_line_weather{
+	display:block;
+	margin: 0.5rem;
+	align-items: center;
+	justify-content: center;
+}
+
+#weather_imagen_temperature{
+	display:flex;
 }
 

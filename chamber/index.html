@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Veracruz Chamber Commerce</title>
+    <meta name="description"
+  content="This is a  page demo of the chamber commerce for Veracruz, which is an international port of foreign trade - Fredy Castañeda   BYU Idaho" />
+  
     <link rel="shortcut icon" href="logo5.webp">
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
@@ -71,8 +74,7 @@
     </header>
     <main>
         <section id="section_one">
-            <img id="img_one" src="images/wdd230-org_1280.jpeg" alt="Hero" size="50vw"
-            srcset="images/wdd230-org_320_small.jpeg 320w,
+            <img id="img_one" src="images/wdd230-org_1280.jpeg" alt="Hero" size="50vw" srcset="images/wdd230-org_320_small.jpeg 320w,
                         images/wdd230-org_640_.jpeg 500w,
                         images/wdd230-org_800_medium.jpeg 800w,
                         images/wdd230-org_1024_large.jpeg 1024w,
@@ -90,8 +92,20 @@
             </div>
         </section>
         <section id="section_three">
-
-            <img src="images/weather4.svg" alt="Weather">
+            <div id="first_line_weather">
+                <h3 id="weather_title">Weather </h3>
+                <div id="weather_imagen_temperature">   
+                <img id="weather_imagen" src="images/weather_sun_cloud.jpg" alt="Weather">
+            
+                <p id="weather_temperature"><span>33&deg;C</span></p>
+                </div> 
+           </div>
+           <div id="second_line_weather">
+            <p id="cloudiness"> Partly Cloudy</p>
+            <hr id="line_weather">
+            <p id="wind_speed"><span>Wind Speed: </span> <span id="wind_speed_span"> </span> </p>
+            <p id="wind_chill"> <span>Wind Chill: </span> <span id="wind_chill_span"> </span></p>
+            </div>
         </section>
         <section id="section_four">
             <div id="text_content_section_four">
@@ -171,13 +185,14 @@
                     Proyect </p>
             </div>
             <div class="footer_line_two">
-                <p class="update"> Last Modification <span id="currentdate"> </span> </p>
+                <p class="update"> Last Modification <span id="lastmodification"> </span> </p>
             </div>
         </div>
 
     </footer>
 
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

@@ -22,10 +22,12 @@ const day = today.getDay();
 console.log(day);
 if (day == 1 || day == 4){
     const banner = document.querySelector(".banner").style.display ="flex";
-    banner
+    //banner
 }
 
-
+/* last modification */
+const date = new Date(document.lastModified);
+document.getElementById('lastmodification').textContent = (date.toLocaleDateString('en-US')) + '  '+date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
 
 /* To interact with the menu */
 
