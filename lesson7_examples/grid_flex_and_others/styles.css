@@ -1,0 +1,32 @@
+
+
+.wrapper {
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr 1fr;
+   gap: 1em;
+}
+
+.parent-selector {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+/*
+.parent-selector {
+    display: flex;
+    justify-content: full;
+    vertically-align: 50%;
+}
+
+.parent-selector {
+    display: flex;
+    text-align:center;
+    vertically-align: middle;
+} 
+
+.parent-selector {
+    margin: 0 auto;
+    text-align: center;
+    vertically-align: middle;
+} */
