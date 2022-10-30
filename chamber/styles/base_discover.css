@@ -211,83 +211,10 @@ footer{
 #hamburger_button.open span:nth-child(1){ display: none;}
 
 
-/*
-#hamburger_button.open span:nth-child(1){ display: none;}
-#x_button.open span:nth-child(1){ display: block;}
-#hamburger_button.open nav{
-	display: flex;
-}*/
+
 
 
 
 button{
 	background: transparent;
 }
-
-/*
-img{
-	padding: 0%;
-	margin:0%;
-	width:100%;
-	height:100%;
-	object-fit:cover;
-	overflow: hidden;	
-
-  }*/
-/*
-#section_three{
-	display:flex;
-	background-color: #5e55e1;
-	color:#ffffff
-
-}
-
-#line_weather{
-	display: none;
-}
-
-#section_two{
-	text-align: center;
-	overflow: auto;
-
-}
-
-#section_six, #section_four{
-	overflow: auto;
-}
-
-#text_content_aside {
-	overflow: auto;
-}
-
-aside {
-	overflow: auto;
-}
-
-#weather_imagen{
-	width: 50px;
-	height: auto;
-}
-#sfirst_line_weather{
-	display:block;
-	margin-top: 0;
-	align-items: center;
-	justify-content: center;
-}
-#second_line_weather{
-	display:block;
-	padding-left: 0.5rem;
-	/*margin: 0.5rem;*/
-/*
-	align-items: center;
-	justify-content: center;
-}
-#section_three{
-	margin-top: 0em;
-	padding-top: 0em;
-}
-
-#weather_imagen_temperature{
-	display:flex;
-}
-*/

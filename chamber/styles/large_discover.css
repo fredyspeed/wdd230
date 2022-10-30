@@ -17,13 +17,7 @@
         border: none;
         border-right:1px solid rgb(0,0,0,0.3);
     }
-/*
-    main {
-        display: grid;
-        grid-template-rows: 15rem 15rem 15rem;
-        grid-template-columns: 1fr 1fr 1fr 1fr;   
-    }
-*/
+
 #body_content{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,60 +46,12 @@
 
 
 
-    /*   
-       
-       <section 
-    */
-
-    /* section_one     Hero with site name and call to action */
-    /* section_two     Event */
-    /* section_three   Weather  */
-    /* section_four    News Release */
-    /* section_five    aside_ one */
-    /* section_six     Join  */
-    /*
-    #section_two {
-        grid-row: 1;
-        grid-column: 1;
-    }
+  
     
-    #section_one {
-        grid-row: span 2;
-        grid-column: span 2;
-    }
-    
-    #section_three {
-        grid-row: 2;
-        grid-column: 1;
+ 
+
+    .img_column:hover {
+        border-radius: 15px 75px 15px 75px;
     }
 
-    #section_six {
-        grid-row: 3;
-        grid-column: 1;
-    }
-
-    #section_four {
-        grid-row: 3;
-        grid-column: span 2;
-    }
-    
-    #section_five {
-        display: block;
-        grid-row: span 3;
-        grid-column: 4;
-        
-        
-    }
-
-    aside {
-        width: 78%;
-        height: 6rem;
-        margin-left: .3rem;
-        
-        
-    } 
-    #aside_three{
-        display:block
-    }
-    */
 }

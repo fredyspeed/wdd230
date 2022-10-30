@@ -23,4 +23,8 @@
         justify-content: center;
         
     }  
+
+    .img_column:hover {
+        border-radius: 15px 75px 15px 75px;
+    }
 }
