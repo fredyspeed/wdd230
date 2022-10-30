@@ -1,6 +1,5 @@
 @media only screen and (min-width: 64rem){
     #hamburger_button {display:none;}
-
     
     .header_logo_and_menu{
         display: flex;
@@ -12,23 +11,48 @@
     nav ul {
         display: flex;
         margin-left: 2vw;
-
     }
 
     nav ul li a {
         border: none;
         border-right:1px solid rgb(0,0,0,0.3);
-
     }
-    
+/*
     main {
         display: grid;
         grid-template-rows: 15rem 15rem 15rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;   
-    } 
-    /* 
-       
-       
+    }
+*/
+#body_content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#script_visits{
+    grid-column: 3;
+    align-items: center ;
+    justify-content: center;
+}
+
+#demografic_data{
+    grid-column: 1/ span 3;
+    align-items: center ;
+    justify-content: center;
+}
+
+#column_images{
+    grid-column: 2;
+    align-items: center ;
+    justify-content: center;
+    
+}  
+
+
+
+
+    /*   
        
        <section 
     */
@@ -39,7 +63,8 @@
     /* section_four    News Release */
     /* section_five    aside_ one */
     /* section_six     Join  */
-     #section_two {
+    /*
+    #section_two {
         grid-row: 1;
         grid-column: 1;
     }
@@ -82,4 +107,5 @@
     #aside_three{
         display:block
     }
+    */
 }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progresive loading</title>
+    <meta name="description" content="Progressive page content loading to immediately show users a view 
+    of the page and then fully load the images with the desired quality. ">
+    <link rel="stylesheet" type="text/css" href="styles/base_discover.css">
+    <link rel="shortcut icon" href="images/discovery_images/progressive_loading2.webp">
+</head>
+
+<body>
+
+    <div id="demografic_data">
+        <h1> Veracruz Chamber Commerce </h1>
+        <p>The city of Veracruz has 607,209 inhabitants, being the most populous city in
+            the federal entity of Veracruz Ignacio de la Llave, this entity has a population
+            of 8,062, 579 inhabitants, international sales of 3,362 million dollars,
+            international sales of 3,221 million dollars , its economically active population
+            is 3,439,114, the unemployment rate is 2.93%, the labor informality rate is 67.5%,
+            and direct foreign investment is 637 million dollars. </p>
+    </div>
+    <div id="script_visits">
+        <p>first visit: <span id="visit_first"></span></p>
+        <p>last visit:<span id="visit_last"></span></p>
+        <p>days between last visit:<span id="visit_record"></span></p>
+        <p>days between first visit:<span id="visit_record_first_visit"></span></p>
+    </div>
+
+    <div id="column_images">
+        <img src="images/discovery_images/first_imagen_worker.jpg"
+            data-src="images/discovery_images/3x4_Hafen_von_V_ProgressiveLoading.jpg" alt="first imagen workers">
+        <p>Workers</p>
+        <img src="images/discovery_images/second_imagen_aduana.jpg"
+            data-src="images/discovery_images/3x4-Aduana_de_VProgLoading.jpg" alt="second imagen Aduana">
+        <p>Aduana</p>
+        <img src="images/discovery_images/third_imagen_board.jpg"
+            data-src="images/discovery_images/3x4-Hafen_von_V_ProgLoading.jpg" alt="third imagen Board">
+        <p>board</p>
+        <img src="images/discovery_images/four_imagen_trailer_boat.jpg"
+            data-src="images/discovery_images/3x4-Hafen_von_V_ProgressiveLoading.jpg" alt="four imagen trailer Boat">
+        <p>remolque</p>
+        <img src="images/discovery_images/five_imagen_portal.jpg"
+            data-src="images/discovery_images/3x4-Portal_M_V_ProgressiveLoading_.jpg" alt="five imagen Portal">
+        <p>Portal</p>
+        <img src="images/discovery_images/six_imagen_colage.jpg"
+            data-src="images/discovery_images/3x4-VeracruzCC_ProgressiveLoading.jpg" alt="six imagen colage">
+        <p>Colage</p>
+        <p> This are photographics of Veracruz Port</p>
+        <p> The port of Veracruz is Very large</p>
+        <p> you Can found many place for visit</p>
+        <p> Near of the Veracruz City there is a Temple</p>
+    </div>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/visits_localstorage.js"></script>
+</body>
+
+</html>
