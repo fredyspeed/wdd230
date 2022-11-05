@@ -20,6 +20,7 @@ nav a:hover {
     display:none;
 }
 .banner_content{
+	background-color: rgb(46, 97, 53);
 	display:flex;
 	padding: 16px;
 	max-width: 500px;
@@ -28,6 +29,7 @@ nav a:hover {
 
 }
 .banner_text {
+	
 	flex-grow: 1;
 	line-height:1.4;	
 }
