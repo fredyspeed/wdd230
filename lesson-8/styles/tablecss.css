@@ -7,6 +7,7 @@
 	--borderlight: rgb(149, 170, 188);
 	--shadow: rgb(173, 210, 251);
 	--zebra: rgb(208, 224, 233);
+    --newback: rgb(49, 89, 100);
 }
 
 table {
@@ -43,4 +44,9 @@ td {
 
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
+}
+
+tbody tr:nth-child(5){
+	background-color: var(--newback);
+	color: var(--forelight);
 }
