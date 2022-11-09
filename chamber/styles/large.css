@@ -21,11 +21,17 @@
 
     }
     
-    main {
+    #home_page {
         display: grid;
         grid-template-rows: 15rem 15rem 15rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;   
     } 
+
+    #body_content{
+        display:grid;
+        grid-template-columns: 1fr 300px 1fr;
+    
+    }
     /* 
        
        

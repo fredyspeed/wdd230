@@ -1,10 +1,11 @@
 @media only screen and (min-width: 44rem){
-    main {
+    #home_page {
         display: grid;
         grid-template-rows: 8rem 8rem 8rem 8rem 8rem;
         grid-template-columns: 1fr 1fr;
         
     }
+
 
     #section_one {
         grid-row: 1;
@@ -42,5 +43,37 @@
         width: 45%;
         height: 6rem;
         margin-left: .5rem;     
+    }
+
+
+
+    /* page discover */
+    #body_content{
+        display:grid;
+        grid-template-columns: 1fr 300px 1fr;
+    
+    }
+    
+    #script_visits{
+        grid-column: 3;
+        align-items: center ;
+        justify-content: center;
+    }
+    
+    #demografic_data{
+        grid-column: 1/ span 3;
+        align-items: center ;
+        justify-content: center;
+    }
+    
+    #column_images{
+        grid-column: 2;
+        align-items: center ;
+        justify-content: center;
+        
+    }  
+
+    .img_column:hover {
+        border-radius: 15px 75px 15px 75px;
     }
 }

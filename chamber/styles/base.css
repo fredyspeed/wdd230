@@ -106,13 +106,36 @@ nav ul li a {
     border-top: 1px solid rgb(0,0,0, 0.5);
 }
 
+
 /* style main*/
 
-main {
+#home_page{
 	display: grid;
     grid-template-rows: 8rem 8rem 8rem 8rem 16rem;
-	/*padding:.2rem 2vw;*/
+	
 }
+/* for discover home */
+#body_content {
+    background-color: rgb(248, 241, 231);
+	padding: 2rem;
+	    
+}
+.column_images{
+	width: 300px;
+}
+
+
+.img_column{
+    
+    background-color: rgb(112, 229, 233);
+    padding: 10px;
+    margin: 10px; 
+    min-width: 300px;
+    min-height: 400px;
+    border: 2px solid black;
+    
+} 
+
 
 section {
 	margin: .3rem 1vw;
@@ -124,7 +147,7 @@ section {
 
 aside {
 	border: 1px solid rgb(165, 186, 139);
-	height: 7rem;
+	height: 6rem;
 	padding: .2rem 2vw;
 }
 
@@ -134,13 +157,9 @@ aside {
 
 /* when the screen is small */
 
-/*@media only screen  */
 
 footer{	
-	background-color: rgb(172, 244, 194);
-	
-	
-	
+	background-color: rgb(172, 244, 194);	
 }
 .footer_first_line{
 	display: flex; 
@@ -181,13 +200,6 @@ footer{
 #hamburger_button.open span:nth-child(1){ display: none;}
 
 
-/*
-#hamburger_button.open span:nth-child(1){ display: none;}
-#x_button.open span:nth-child(1){ display: block;}
-#hamburger_button.open nav{
-	display: flex;
-}*/
-
 
 
 button{
@@ -195,7 +207,7 @@ button{
 }
 
 
-img{
+.imgen_home{
 	padding: 0%;
 	margin:0%;
 	width:100%;

@@ -133,14 +133,12 @@ nav ul li a {
 }
 
 /* style main*/
-
-main {
+#body_content {
     background-color: rgb(248, 241, 231);
 	padding: 2rem;
-	/*display: grid;
-    grid-template-rows: 8rem 8rem 8rem 8rem 16rem;
-	*/
+	
 }
+
 
 /*
 section {

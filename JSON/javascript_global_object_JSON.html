@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="course_object"></p>
+
+<script>
+
+var obj = { 
+    "name": "programming one",
+    "credits": 4,
+    "day": "Thusday",
+    "prerequired": false
+  
+}
+// The object don't can print directly 
+console.log(`try print Object ${obj}`);
+// Then we use the function table, This function takes one mandatory argument
+// which must be an array or an object,
+console.table(obj); 
+
+// when use the function .stringify()
+var json_to_string=JSON.stringify(obj);
+// we can print directly although .log
+console.log(`Object as string ${json_to_string}`);
+
+
+var string_to_obj = JSON.parse(json_to_string);
+
+document.getElementById("course_object").innerHTML =
+`Name: ${string_to_obj.name}  <br>
+Credits ${string_to_obj.credits} <br>
+Day:  ${string_to_obj.day}`;
+</script>
+
+</body>
+</html>
