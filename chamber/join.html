@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join page Veracruz Chamber Commerce</title>
+    <meta name="Description" content=" This form is for register the new members">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Veracruz Chamber Commerce- page join</title>
+        <meta name="description" content="This page have the propouse that record data 
+         for the members of Veracruz Chamber Commerce. ">
+    
+        <link rel="shortcut icon" href="logo5.webp">
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/base.css">
+        <link rel="stylesheet" type="text/css" href="styles/medium.css">
+        <link rel="stylesheet" type="text/css" href="styles/large.css">
+    
+    </head>
+</head>
+<body>
+    <header>
+
+        <div class="banner">
+
+            <div class="banner_content">
+                <div class="banner_text">
+                    <strong> Reminder: </strong>
+                    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+                </div>
+
+                <button class="banner_close" type="button">
+                    <span id="close_X">X</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="header_first_line">
+            <div class="header_logo_and_menu">
+                <div class="logo">
+                    <picture>
+                        <img src="images/logo_main.webp" width="150" height="150" alt="Globalization_Logo">
+                    </picture>
+                    <div class="headings">
+                        <h1>Veracruz </h1>
+                        <q class="m">Chamber Commerce!</q>
+                    </div>
+                </div>
+                <div class="navegation_menu">
+                    <nav id="primary_nav">
+                        <button id="x_button"><span>x</span></button>
+                        <ul>
+                            <li><a href="#" class="active">Discovery</a></li>
+                            <li><a href="#">Directory</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="social">
+
+                <a href="https://www.facebook.com"><img src="images/facebook.svg" width="32" height="32"
+                        alt="The facebook logo"></a>
+
+                <a href="https://twitter.com"><img src="images/twitter.svg" width="32" height="32"
+                        alt="The twitter logo"></a>
+
+                <a href="https://www.linkedin.com"> <img src="images/linkedin.svg" width="32" height="32"
+                        alt="The linkedin logo"></a>
+
+            </div>
+
+            <button id="hamburger_button"><span>&#9776;</span></button>
+        </div>
+
+        <div class="date"></div>
+
+    </header>
+    <main id="join_page">
+        <div id="membership_level">
+            <h1> Membership level Benefits</h1>
+            
+            <h3>NP Membership</h3> 
+            <h3>Bronze Membership</h3>  
+            <h3>Silver Membership</h3>  
+            <h3>Gold Membership</h3>  
+                
+
+
+        </div>
+
+
+        <form id="form_id" action="thankyou.html" method="get" class="form-join">
+          <fieldset>
+           <legend class="form-join" >Information</legend>
+           <label for="first_name">First name: </label> <input name='first_name' id='first_name' type='text'  required> <br>
+           <label for="last_name">Last name: </label><input name='last_name' id='last_name'type='text' required> <br>
+          <labe for="position">Business position title: </label><input name='position'  id='position'type='text' pattern="[a-zA-Z_-]{1,15}" title="Username should only contain lowercase letters. e.g. john"> <br>
+          <label for="email">Email: </label> <input name='email' id='email' type='email' placeholder="example@gmail.com" required> <br>
+          <label for="cell_phone">Cell phone number: </label><input name='cell_phone' id='cell_phone'type='tel'  required> <br>
+          <label for="business_name_title">Business name/title:</label><input id='business_name_title' name='business_name_title' type='text'  pattern="[a-zA-Z -]{7,}" title="Username should only contain lowercase letters. e.g. john"> <br>
+          <label for="membership_level_select">Member level:</label><select id="membership_level_select" name="membership_level_select" > <br>
+            
+            <option value="np_membership">NP Membership </option>
+            <option value="bronze_membership">Bronze Membership</option>
+            <option value="silver_membership">Silver Membership</option>
+            <option value="gold_membership">Gold Membership</option>
+
+            </select> <br>
+            <label for="message">Business description:</label>
+             <br>
+             <textarea name="message" id="message"rows="10" cols="30" >
+                
+                </textarea> <br>
+
+                <input type="hidden" id="date" name="date" value="34657" /><br>
+                <input type="submit" value="Subscribe!">
+          </fieldset>
+         
+          
+         </form>
+    </main>
+    <footer>
+        <div class="footer_first_line">
+            <div class="footer_first_part">
+                <div class="logo">
+                    <picture>
+                        <img src="images/Globalization_Logo.svg" width="150" height="150" alt="The world logo">
+                    </picture>
+                    <div class="headings">
+                        <h1>Veracruz </h1>
+                        <q class="m">Chamber Commerce!</q>
+                        <p class="street"> Boca del rio </p>
+                        <p class="address">94295 Boca del Rio, Veracruz, Mexico</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_second_part">
+                <p class="email"> <span> info@veracruzcc.com</span></p>
+                <p class="phone"> Contact: </p>
+                <p class="maps"> Location </p>
+            </div>
+        </div>
+        <div class="footer_last_line">
+            <div class="footer_line_one">
+                <p class="rigths">@ <span id="year"> </span> Veracruz Chamber | Fredy Castañeda Sánchez | WDD 230
+                    Proyect </p>
+            </div>
+            <div class="footer_line_two">
+                <p class="update"> Last Modification: <span id="lastmodification"> </span> </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

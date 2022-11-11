@@ -54,6 +54,30 @@
     
     }
     
+    /* join page */
+    
+#join_page{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+	background-color: beige;
+}
+#membership_level{
+    grid-row: 1;
+	grid-column: 1;
+	display: box;
+	justify-self: center;
+	
+}
+
+#form_id{
+    grid-row:1;
+	grid-column: 2;
+}
+
+/* main join */
+
+
     #script_visits{
         grid-column: 3;
         align-items: center ;
