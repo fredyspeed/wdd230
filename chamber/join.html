@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join page Veracruz Chamber Commerce</title>
     <meta name="Description" content=" This form is for register the new members">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Veracruz Chamber Commerce- page join</title>
-        <meta name="description" content="This page have the propouse that record data 
+
+    <meta name="description" content="This page have the propouse that record data 
          for the members of Veracruz Chamber Commerce. ">
-    
-        <link rel="shortcut icon" href="logo5.webp">
-        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-        <link rel="stylesheet" type="text/css" href="styles/base.css">
-        <link rel="stylesheet" type="text/css" href="styles/medium.css">
-        <link rel="stylesheet" type="text/css" href="styles/large.css">
-    
-    </head>
+
+    <link rel="shortcut icon" href="logo5.webp">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+
 </head>
+
 <body>
     <header>
 
@@ -84,46 +81,55 @@
     <main id="join_page">
         <div id="membership_level">
             <h1> Membership level Benefits</h1>
-            
-            <h3>NP Membership</h3> 
-            <h3>Bronze Membership</h3>  
-            <h3>Silver Membership</h3>  
-            <h3>Gold Membership</h3>  
-                
+
+            <h3>NP Membership</h3>
+            <h3>Bronze Membership</h3>
+            <h3>Silver Membership</h3>
+            <h3>Gold Membership</h3>
+
 
 
         </div>
 
 
         <form id="form_id" action="thankyou.html" method="get" class="form-join">
-          <fieldset>
-           <legend class="form-join" >Information</legend>
-           <label for="first_name">First name: </label> <input name='first_name' id='first_name' type='text'  required> <br>
-           <label for="last_name">Last name: </label><input name='last_name' id='last_name'type='text' required> <br>
-          <labe for="position">Business position title: </label><input name='position'  id='position'type='text' pattern="[a-zA-Z_-]{1,15}" title="Username should only contain lowercase letters. e.g. john"> <br>
-          <label for="email">Email: </label> <input name='email' id='email' type='email' placeholder="example@gmail.com" required> <br>
-          <label for="cell_phone">Cell phone number: </label><input name='cell_phone' id='cell_phone'type='tel'  required> <br>
-          <label for="business_name_title">Business name/title:</label><input id='business_name_title' name='business_name_title' type='text'  pattern="[a-zA-Z -]{7,}" title="Username should only contain lowercase letters. e.g. john"> <br>
-          <label for="membership_level_select">Member level:</label><select id="membership_level_select" name="membership_level_select" > <br>
-            
-            <option value="np_membership">NP Membership </option>
-            <option value="bronze_membership">Bronze Membership</option>
-            <option value="silver_membership">Silver Membership</option>
-            <option value="gold_membership">Gold Membership</option>
+            <fieldset>
+                <legend class="form-join">Information</legend>
+                <label for="first_name">First name: </label> <input name='first_name' id='first_name' type='text'
+                    required> <br>
+                <label for="last_name">Last name: </label><input name='last_name' id='last_name' type='text' required>
+                <br>
+                <label for="position">Business position title: </label><input name='position' id='position' type='text'
+                    pattern="[a-zA-Z_-]{1,15}" title="Username should only contain lowercase letters. e.g. john">
+                <br>
+                <label for="email">Email: </label> <input name='email' id='email' type='email'
+                    placeholder="example@gmail.com" required> <br>
+                <label for="cell_phone">Cell phone number: </label><input name='cell_phone' id='cell_phone' type='tel'
+                    required> <br>
+                <label for="business_name_title">Business name/title:</label><input id='business_name_title'
+                    name='business_name_title' type='text' pattern="[a-zA-Z -]{7,}"
+                    title="Username should only contain lowercase letters. e.g. john"> <br>
+                <label for="membership_level_select">Member level:</label><select id="membership_level_select"
+                    name="membership_level_select"> <br>
 
-            </select> <br>
-            <label for="message">Business description:</label>
-             <br>
-             <textarea name="message" id="message"rows="10" cols="30" >
-                
+                    <option value="np_membership">NP Membership </option>
+                    <option value="bronze_membership">Bronze Membership</option>
+                    <option value="silver_membership">Silver Membership</option>
+                    <option value="gold_membership">Gold Membership</option>
+
+                </select> <br>
+                <label for="message">Business description:</label>
+                <br>
+                <textarea name="message" id="message" rows="10" cols="30">
+
                 </textarea> <br>
 
                 <input type="hidden" id="date" name="date" value="34657" /><br>
                 <input type="submit" value="Subscribe!">
-          </fieldset>
-         
-          
-         </form>
+            </fieldset>
+
+
+        </form>
     </main>
     <footer>
         <div class="footer_first_line">
@@ -160,4 +166,5 @@
 
     <script src="scripts/scripts.js"></script>
 </body>
+
 </html>
