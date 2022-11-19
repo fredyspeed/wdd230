@@ -307,3 +307,99 @@ aside {
 	display:flex;
 }
 
+#directory {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#directory main {
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #eee;
+	font-family: "Caveat", cursive;
+}
+
+#directory .menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+
+#directory .menu button {
+	padding: 1rem;
+}
+
+#directory article,
+#directory section {
+	margin: 0.75rem;
+}
+
+#directory section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+}
+
+#directory .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+#directory .list {
+	display: flex;
+	flex-direction: column;
+}
+
+#directory .list section {
+	display: flex;
+	align-items: center;
+}
+
+#directory .grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+#directory .grid section > * {
+	margin: 0.1rem;
+}
+
+#directory .list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+#directory .list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+#directory .list section img {
+	display: none; /* smaller viewports only */
+}
+
+#directory section h3 {
+	font-size: 1.5rem;
+}
+
+#directory section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+#directory img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
