@@ -16,15 +16,68 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+/* to populate the sección with the data about commerce */
+const requestURL = 'https://fredyspeed.github.io/wdd230/chamber/data/data.json';
+const article_tag = document.querySelector('article');
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject); 
+     const commerces = jsonObject['commerces'];
+     commerces.forEach(displayCommerces);
+    });
+/*
 
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const cards = document.querySelector('.cards');
+<img src="https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg" alt="Payson Utah Temple" />
+                <h3>Payson Utah</h3>
+                <p>2015</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
+            
+*/
 
-function getCommerce(){
 
+	function displayCommerces(commerce) {
+		// Create elements to add to the document
+		
+		let section = document.createElement('section');
+		let img = document.createElement('img');
+		let h4_name =document.createElement('h4');
+		let p_addres = document.createElement('p');
+		let p_numbers_thelefone = document.createElement('p');
+		let a_link = document.createElement('a');
+		let p_addres2 = document.createElement('p');
+		
+		// Change the textContent property of the h2 element to contain the prophet's full name
+		
+		h4_name.innerHTML = `${commerce.name} `;
+	    p_addres.textContent = `${commerce.addres}`;
+		let list_telephones=""; 
+		commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
+		p_numbers_thelefone.textContent = `${list_telephones}`;
+		a_link.textContent = "url direction";
+		p_addres2.textContent = `${commerce.website_url}`;
 
-}
-
+		// Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+		img.setAttribute('src',commerce.imageurl);
+		img.setAttribute('alt', commerce.image );
+		a_link.setAttribute('href',commerce.website_url);
+		
+	  
+		// Add/append the section(card) with the h2 element
+		section.appendChild(img);
+		section.appendChild(h4_name);
+		//section.appendChild(p_addres);
+		section.appendChild(p_numbers_thelefone);
+		section.appendChild(a_link);
+		section.appendChild(p_addres2);
+		console.log(" I was here ");
+	  
+		// Add/append the existing HTML div with the cards class with the section(card)
+		article_tag.appendChild(section);
+	  }
+/*
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
@@ -85,3 +138,4 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
   }
+*/
