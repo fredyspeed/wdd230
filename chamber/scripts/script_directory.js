@@ -71,7 +71,7 @@ fetch(requestURL)
 		//section.appendChild(p_addres);
 		section.appendChild(p_numbers_thelefone);
 		section.appendChild(a_link);
-		section.appendChild(p_addres2);
+		//section.appendChild(p_addres2);
 		console.log(" I was here ");
 	  
 		// Add/append the existing HTML div with the cards class with the section(card)

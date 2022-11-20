@@ -318,7 +318,7 @@ aside {
 	border: 1px solid #bbb;
 	padding: 0.5rem;
 	max-width: 700px;
-	background-color: #eee;
+	background-color: rgb(222, 243, 196);
 	font-family: "Caveat", cursive;
 }
 
@@ -326,7 +326,7 @@ aside {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bbb;
+	background-color: beige;
 	text-align: center;
 }
 
@@ -342,7 +342,7 @@ aside {
 #directory section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #ccc;
+	background-color: beige;
 }
 
 #directory .grid {
