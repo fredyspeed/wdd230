@@ -55,9 +55,10 @@ fetch(requestURL)
 		h4_name.innerHTML = `${commerce.name} `;
 		let commerce_addres = `${commerce.addres}`;
 	    p_addres.textContent = `addres: ${commerce_addres.substring(0,8)}...`;
-		let list_telephones=""; 
+		let list_telephones = ""; 
 		commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
-		p_numbers_thelefone.textContent = `${list_telephones}`;
+		p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}`;
+		//p_numbers_thelefone.textContent = `${list_telephones}`;
 		a_link.textContent = "url direction";
 		p_open.textContent = `open: ${commerce.open}`; 
         p_close.textContent = `close: ${commerce.close}`;
@@ -69,7 +70,7 @@ fetch(requestURL)
 		}
 		a_link.setAttribute('href', commerce.website_url);
 		p_addres.setAttribute('title', commerce_addres);
-		
+		p_numbers_thelefone.setAttribute('title', list_telephones);
 	  
 		// Add/append the section(card) with the h2 element
 		section.appendChild(img);
