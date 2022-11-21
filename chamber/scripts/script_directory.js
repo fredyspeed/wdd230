@@ -61,7 +61,7 @@ fetch(requestURL)
 			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}...`;
 		}
 		else{
-			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}`
+			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}`;
 		}
 
 		   
