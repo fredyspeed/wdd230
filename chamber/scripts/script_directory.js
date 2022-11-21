@@ -47,7 +47,8 @@ fetch(requestURL)
 		let p_addres = document.createElement('p');
 		let p_numbers_thelefone = document.createElement('p');
 		let a_link = document.createElement('a');
-		let p_addres2 = document.createElement('p');
+		let p_open = document.createElement('p');
+		let p_close = document.createElement('p');
 		
 		// Change the textContent property of the h2 element to contain the prophet's full name
 		
@@ -58,8 +59,8 @@ fetch(requestURL)
 		commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
 		p_numbers_thelefone.textContent = `${list_telephones}`;
 		a_link.textContent = "url direction";
-		p_addres2.textContent = `${commerce.website_url}`;
-
+		p_open.textContent = `open: ${commerce.open}`; 
+        p_close.textContent = `close: ${commerce.close}`;
 		// Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
 		img.setAttribute('src', commerce.imageurl);
 		img.setAttribute('alt', commerce.image );
@@ -76,9 +77,9 @@ fetch(requestURL)
 		section.appendChild(p_addres);
 		section.appendChild(p_numbers_thelefone);
 		section.appendChild(a_link);
-		//section.appendChild(p_addres2);
-		console.log(" I was here ");
-	  
+		section.appendChild(p_open);
+		section.appendChild(p_close);
+		
 		// Add/append the existing HTML div with the cards class with the section(card)
 		article_tag.appendChild(section);
 	  }
