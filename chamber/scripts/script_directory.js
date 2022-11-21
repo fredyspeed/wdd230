@@ -44,7 +44,7 @@ fetch(requestURL)
 		let section = document.createElement('section');
 		let img = document.createElement('img');
 		let h4_name =document.createElement('h4');
-		let p_addres = document.createElement('p');
+		let p_address = document.createElement('p');
 		let p_numbers_thelefone = document.createElement('p');
 		let a_link = document.createElement('a');
 		let p_open = document.createElement('p');
@@ -53,8 +53,8 @@ fetch(requestURL)
 		// Change the textContent property of the h2 element to contain the prophet's full name
 		
 		h4_name.innerHTML = `${commerce.name} `;
-		let commerce_addres = `${commerce.addres}`;
-	    p_addres.textContent = `addres: ${commerce_addres.substring(0,8)}...`;
+		let commerce_address = `${commerce.address}`;
+	    p_address.textContent = `address: ${commerce_address.substring(0,8)}...`;
 		let list_telephones = ""; 
 		if (commerce.phone_numbers.length > 1){
 			commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
@@ -74,13 +74,13 @@ fetch(requestURL)
 		img.setAttribute('alt', commerce.image );
 		
 		a_link.setAttribute('href', commerce.website_url);
-		p_addres.setAttribute('title', commerce_addres);
+		p_address.setAttribute('title', commerce_address);
 		p_numbers_thelefone.setAttribute('title', list_telephones);
 	  
 		// Add/append the section(card) with the h2 element
 		section.appendChild(img);
 		section.appendChild(h4_name);
-		section.appendChild(p_addres);
+		section.appendChild(p_address);
 		section.appendChild(p_numbers_thelefone);
 		section.appendChild(a_link);
 		section.appendChild(p_open);

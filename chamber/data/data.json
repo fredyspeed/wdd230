@@ -2,7 +2,7 @@
     "commerces": [
       {
         "name": "Casa Molienda",
-        "addres": "Av. Cristóbal Colón 262",
+        "address": "Av. Cristóbal Colón 262",
         "phone_numbers": ["2292837458"],
         "website_url": "https://casa-molienda-restaurant.negocio.site/",
         "image": "mesas_casa_molienda",
@@ -13,7 +13,7 @@
       },
       {
         "name": "Palapa Perea",
-        "addres": "Av. 16 de Septiembre casi esq. Azueta Veracruz ,Ver.",
+        "address": "Av. 16 de Septiembre casi esq. Azueta Veracruz ,Ver.",
         "phone_numbers":["2292009894"],
         "website_url": "https://palapaperea.com/",
         "image": "Logo_palapa_perea",
@@ -25,7 +25,7 @@
       },
       {
         "name": "Mariscos Elbayo",
-        "addres": "Bv. Adolfo Ruíz Cortines 3456, Costa de Oro, 94299 Boca del Río, Ver.",
+        "address": "Bv. Adolfo Ruíz Cortines 3456, Costa de Oro, 94299 Boca del Río, Ver.",
         "phone_numbers": ["2291304729"],
         "website_url": "https://mariscoselbayo.com/",
         "image": "mariscoselbayo",
@@ -36,7 +36,7 @@
       },
       {
         "name": "Mariscos Villa Rica",
-        "addres": "Independencia 1115, Centro, 91700",
+        "address": "Independencia 1115, Centro, 91700",
         "phone_numbers": ["229 923 0284"],
         "website_url": "https://www.villa-rica.com/",
         "image": "https://www.villa-rica.com/img/logo.png",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Mardel",
-        "addres": " Blvd. Manuel Ávila Camacho 2632, Ignacio Zaragoza, 91910 Veracruz, Ver.",
+        "address": " Blvd. Manuel Ávila Camacho 2632, Ignacio Zaragoza, 91910 Veracruz, Ver.",
         "phone_numbers": ["2299375963"],
         "website_url": "http://www.mardel.com.mx/",
         "image": "casa_Mardel",
@@ -58,7 +58,7 @@
       },
       {
         "name": "El Llagar",
-        "addres": "Blvd. Manuel Ávila Camacho s/n. Col. Zaragoza (a 2 cuadras del Asta Bandera).",
+        "address": "Blvd. Manuel Ávila Camacho s/n. Col. Zaragoza (a 2 cuadras del Asta Bandera).",
         "phone_numbers": ["2299359142","2299371759"],
         "website_url": "https://elllagar.mx/",
         "image": "el_llagar",
@@ -69,7 +69,7 @@
       },
       {
         "name": "COMCE",
-        "addres": "Km. 433.7 ctra México-Veracruz",
+        "address": "Km. 433.7 ctra México-Veracruz",
         "phone_numbers": ["2299891178","2299891177"],
         "website_url": "https://comceveracruz.org.mx/logisticaexportacion/",
         "image": "comce_veracruz",
@@ -80,7 +80,7 @@
       },
       {
         "name": "Eventours",
-        "addres": "Av. 1° de Mayo No. 135, Obrero Campesina, 91020 Xalapa-Enríquez, Ver.",
+        "address": "Av. 1° de Mayo No. 135, Obrero Campesina, 91020 Xalapa-Enríquez, Ver.",
         "phone_numbers": ["2288903999"],
         "website_url": "https://evetours.mx/",
         "image": "logo",
@@ -91,7 +91,7 @@
       },
       {
         "name": "Costa de Marfil",
-        "addres": "Av. George Washington 733, poligono 1, Reforma, 91919 Veracruz, Ver",
+        "address": "Av. George Washington 733, poligono 1, Reforma, 91919 Veracruz, Ver",
         "phone_numbers": ["2299370784"],
         "website_url": "https://www.viajescostademarfil.com/home",
         "image": "Costa_De_Marfil",
@@ -102,7 +102,7 @@
       },
       {
         "name": "Viajes Torremolinos",
-        "addres": "Calle Heriberto Jara Corona, Av Cristóbal Colón 203 esquina, Reforma, 91919 Veracruz, Ver.",
+        "address": "Calle Heriberto Jara Corona, Av Cristóbal Colón 203 esquina, Reforma, 91919 Veracruz, Ver.",
         "phone_numbers": ["2299356850"],
         "website_url": "https://www.viajestorremolinos.exodus.mx/",
         "image": "viajestorremolinos",
