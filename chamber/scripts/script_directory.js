@@ -52,7 +52,8 @@ fetch(requestURL)
 		// Change the textContent property of the h2 element to contain the prophet's full name
 		
 		h4_name.innerHTML = `${commerce.name} `;
-	    p_addres.textContent = `${commerce.addres}`;
+		let commerce_addres = `${commerce.addres}`;
+	    p_addres.textContent = `addres: ${commerce_addres.substring(0,8)}...`;
 		let list_telephones=""; 
 		commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
 		p_numbers_thelefone.textContent = `${list_telephones}`;
@@ -60,15 +61,17 @@ fetch(requestURL)
 		p_addres2.textContent = `${commerce.website_url}`;
 
 		// Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-		img.setAttribute('src',commerce.imageurl);
+		img.setAttribute('src', commerce.imageurl);
 		img.setAttribute('alt', commerce.image );
-		a_link.setAttribute('href',commerce.website_url);
+		if (commerce.name == '')
+		a_link.setAttribute('href', commerce.website_url);
+		p_addres.setAttribute('title', commerce_addres);
 		
 	  
 		// Add/append the section(card) with the h2 element
 		section.appendChild(img);
 		section.appendChild(h4_name);
-		//section.appendChild(p_addres);
+		section.appendChild(p_addres);
 		section.appendChild(p_numbers_thelefone);
 		section.appendChild(a_link);
 		//section.appendChild(p_addres2);
