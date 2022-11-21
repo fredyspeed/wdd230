@@ -56,8 +56,15 @@ fetch(requestURL)
 		let commerce_addres = `${commerce.addres}`;
 	    p_addres.textContent = `addres: ${commerce_addres.substring(0,8)}...`;
 		let list_telephones = ""; 
-		commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
-		p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}`;
+		if (commerce.phone_numbers.length > 1){
+			commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
+			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}...`;
+		}
+		else{
+			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}`
+		}
+
+		   
 		//p_numbers_thelefone.textContent = `${list_telephones}`;
 		a_link.textContent = "url direction";
 		p_open.textContent = `open: ${commerce.open}`; 
@@ -65,9 +72,7 @@ fetch(requestURL)
 		// Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
 		img.setAttribute('src', commerce.imageurl);
 		img.setAttribute('alt', commerce.image );
-		if (commerce.name == 'COMCE'){
-			img.setAttribute('background-color', "black");
-		}
+		
 		a_link.setAttribute('href', commerce.website_url);
 		p_addres.setAttribute('title', commerce_addres);
 		p_numbers_thelefone.setAttribute('title', list_telephones);
