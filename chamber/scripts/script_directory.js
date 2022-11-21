@@ -63,7 +63,9 @@ fetch(requestURL)
 		// Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
 		img.setAttribute('src', commerce.imageurl);
 		img.setAttribute('alt', commerce.image );
-		if (commerce.name == '')
+		if (commerce.name == 'COMCE'){
+			img.setAttribute('background-color', "black");
+		}
 		a_link.setAttribute('href', commerce.website_url);
 		p_addres.setAttribute('title', commerce_addres);
 		
