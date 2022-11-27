@@ -1,7 +1,7 @@
 {
     "name": "Google I/O 2015",
     "short_name": "I/O 2015",
-    "start_url": "./?utm_source=web_app_manifest",
+    "start_url": "https://fredyspeed.github.io/wdd230/chamber/data/manifest.json",
     "display": "standalone",
     "icons": [{
       "src": "logo5.webp",
