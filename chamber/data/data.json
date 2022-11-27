@@ -9,7 +9,7 @@
         "membership_level": 1,
         "open": "13:30",
         "close": "23:00",
-        "imageurl": "https://lh5.googleusercontent.com/p/AF1QipPdYvmrI2E_zd8qx2_-6eB35kZsBuYutcdZyDxY=w228-h228-n-k-no"
+        "imageurl": "images/directory_images/casa_molienda.jpg"
       },
       {
         "name": "Palapa Perea",
@@ -20,7 +20,7 @@
         "membership_level": 2 ,
         "open": "9:00",
         "close": "12:30",
-        "imageurl": "http://palapaperea.com/wp-content/uploads/2016/06/logo-transp.png"
+        "imageurl": "images/directory_images/palapa_perea.png"
         
       },
       {
@@ -32,18 +32,18 @@
         "membership_level": 3,
         "open": "11:00",
         "close": "20:00",
-        "imageurl": "https://mariscoselbayo.com/images/pic01.png"
+        "imageurl": "images/directory_images/mariscos_elbayo.png"
       },
       {
         "name": "Mariscos Villa Rica",
         "address": "Independencia 1115, Centro, 91700",
         "phone_numbers": ["229 923 0284"],
         "website_url": "https://www.villa-rica.com/",
-        "image": "https://www.villa-rica.com/img/logo.png",
+        "image": "logo villa rica",
         "membership_level": 4,
         "open": "7:00",
         "close": "22:00",
-        "imageurl": "https://www.villa-rica.com/img/logo.png"
+        "imageurl": "images/directory_images/mariscos_villa_rica_logo.png"
       },
       {
         "name": "Mardel",
@@ -54,7 +54,7 @@
         "membership_level":2 ,
         "open": "7:00",
         "close": "23:00",
-        "imageurl": "https://lh3.googleusercontent.com/p/AF1QipOof7s89fROqBE9822K2ALMQ378WDHrVoCAjsg=s1360-w1360-h1020"
+        "imageurl": "images/directory_images/mardel_.jpeg"
       },
       {
         "name": "El Llagar",
@@ -65,7 +65,7 @@
         "membership_level": 1 ,
         "open": "9:00",
         "close": "23:59",
-        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRln6j3A03Y_Rxp3KwP62cbd0W0P9ady3BJLg&usqp=CAU"
+        "imageurl": "images/directory_images/el_llagar.jpeg"
       },
       {
         "name": "COMCE",
@@ -76,7 +76,7 @@
         "membership_level": 1,
         "open": "8:00",
         "close": "18:00",
-        "imageurl": "https://comceveracruz.org.mx/wp-content/uploads/2020/06/LOGO_COMCEVER_AZUL.png"
+        "imageurl": "images/directory_images/logo_comcever_azul.png"
       },
       {
         "name": "Eventours",
@@ -87,7 +87,7 @@
         "membership_level":3 ,
         "open": "8:00",
         "close": "16:00",
-        "imageurl": "https://evetours.mx/wp-content/uploads/2014/05/logo-copia.png"
+        "imageurl": "images/directory_images/logo-eventur.png"
       },
       {
         "name": "Costa de Marfil",
@@ -98,7 +98,7 @@
         "membership_level": 3,
         "open": "10:00",
         "close": "17:00",
-        "imageurl": "https://static.wixstatic.com/media/363667_6a4aab0061c24cbf871db43c986513dc~mv2.jpg/v1/fill/w_596,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/costa%20logo-01.jpgg"
+        "imageurl": "images/directory_images/costa_de_marfil_logo.jpg"
       },
       {
         "name": "Viajes Torremolinos",
@@ -109,7 +109,7 @@
         "membership_level": 3,
         "open": "10:00",
         "close": "16:00",
-        "imageurl": "https://exodus.b-cdn.net/logo/viajestorremolinos.png?width=300"
+        "imageurl": "images/directory_images/viajestorremolinos.jpeg"
       }
     ]
   }
