@@ -65,7 +65,7 @@
 #membership_level{
     grid-row: 1;
 	grid-column: 1;
-	display: box;
+	
 	justify-self: center;
 	
 }
