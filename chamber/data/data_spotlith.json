@@ -1,0 +1,116 @@
+{
+    "spotlights": [
+      {
+        "name": "",
+        "date": "11/28/2022",
+        "phone_numbers": ["2292837458"],
+        "website_url": "https://casa-molienda-restaurant.negocio.site/",
+        "image": "mesas_casa_molienda",
+        "membership_level": 1,
+        "open": "13:30",
+        "close": "23:00",
+        "imageurl": "https://lh5.googleusercontent.com/p/AF1QipPdYvmrI2E_zd8qx2_-6eB35kZsBuYutcdZyDxY=w228-h228-n-k-no"
+      },
+      {
+        "name": "Palapa Perea",
+        "addres": "Av. 16 de Septiembre casi esq. Azueta Veracruz ,Ver.",
+        "phone_numbers":["2292009894"],
+        "website_url": "https://palapaperea.com/",
+        "image": "Logo_palapa_perea",
+        "membership_level": 2 ,
+        "open": "9:00",
+        "close": "12:30",
+        "imageurl": "http://palapaperea.com/wp-content/uploads/2016/06/logo-transp.png"
+        
+      },
+      {
+        "name": "Mariscos Elbayo",
+        "addres": "Bv. Adolfo Ruíz Cortines 3456, Costa de Oro, 94299 Boca del Río, Ver.",
+        "phone_numbers": ["2291304729"],
+        "website_url": "https://mariscoselbayo.com/",
+        "image": "mariscoselbayo",
+        "membership_level": 3,
+        "open": "11:00",
+        "close": "20:00",
+        "imageurl": "https://mariscoselbayo.com/images/pic01.png"
+      },
+      {
+        "name": "Mariscos Villa Rica Diligencias",
+        "addres": "Independencia 1115, Centro, 91700",
+        "phone_numbers": ["229 923 0284"],
+        "website_url": "https://www.villa-rica.com/",
+        "image": "https://www.villa-rica.com/img/logo.png",
+        "membership_level": 4,
+        "open": "7:00",
+        "close": "22:00",
+        "imageurl": "https://www.villa-rica.com/img/logo.png"
+      },
+      {
+        "name": "Mardel",
+        "addres": " Blvd. Manuel Ávila Camacho 2632, Ignacio Zaragoza, 91910 Veracruz, Ver.",
+        "phone_numbers": ["2299375963"],
+        "website_url": "http://www.mardel.com.mx/",
+        "image": "casa_Mardel",
+        "membership_level":2 ,
+        "open": "7:00",
+        "close": "23:00",
+        "imageurl": "https://lh3.googleusercontent.com/p/AF1QipOof7s89fROqBE9822K2ALMQ378WDHrVoCAjsg=s1360-w1360-h1020"
+      },
+      {
+        "name": "El Llagar",
+        "addres": "Blvd. Manuel Ávila Camacho s/n. Col. Zaragoza (a 2 cuadras del Asta Bandera).",
+        "phone_numbers": ["2299359142","2299371759"],
+        "website_url": "https://elllagar.mx/",
+        "image": "el_llagar",
+        "membership_level": 1 ,
+        "open": "9:00",
+        "close": "23:59",
+        "imageurl": "https://elllagar.mx/images/logotipo.png"
+      },
+      {
+        "name": "COMECE",
+        "addres": "Km. 433.7 ctra México-Veracruz vía Xalapa, 91697 Veracruz, Ver",
+        "phone_numbers": ["2299891178","2299891177"],
+        "website_url": "https://comceveracruz.org.mx/logisticaexportacion/",
+        "image": "comce_veracruz",
+        "membership_level": 1,
+        "open": "8:00",
+        "close": "18:00",
+        "imageurl": "https://comceveracruz.org.mx/wp-content/uploads/2020/06/LOGO_COMCEVER_BLANCO.png"
+      },
+      {
+        "name": "Eventours",
+        "addres": "Av. 1° de Mayo No. 135 91020, Obrero Campesina, 91020 Xalapa-Enríquez, Ver.",
+        "phone_numbers": ["2288903999"],
+        "website_url": "https://evetours.mx/",
+        "image": "logo",
+        "membership_level":3 ,
+        "open": "8:00",
+        "close": "16:00",
+        "imageurl": "https://evetours.mx/wp-content/uploads/2014/05/logo-copia.png"
+      },
+      {
+        "name": "Costa de Marfil",
+        "addres": "Av. George Washington 733, poligono 1, Reforma, 91919 Veracruz, Ver",
+        "phone_numbers": ["2299370784"],
+        "website_url": "https://www.viajescostademarfil.com/home",
+        "image": "Costa_De_Marfil",
+        "membership_level": 3,
+        "open": "10:00",
+        "close": "17:00",
+        "imageurl": "https://static.wixstatic.com/media/363667_6a4aab0061c24cbf871db43c986513dc~mv2.jpg/v1/fill/w_596,h_298,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/costa%20logo-01.jpgg"
+      },
+      {
+        "name": "Viajes Torremolinos",
+        "addres": "Calle Heriberto Jara Corona, Av Cristóbal Colón 203 esquina, Reforma, 91919 Veracruz, Ver.",
+        "phone_numbers": ["2299356850"],
+        "website_url": "https://www.viajestorremolinos.exodus.mx/",
+        "image": "viajestorremolinos",
+        "membership_level": 3,
+        "open": "10:00",
+        "close": "16:00",
+        "imageurl": "https://exodus.b-cdn.net/logo/viajestorremolinos.png?width=300"
+      }
+    ]
+  }
+  
