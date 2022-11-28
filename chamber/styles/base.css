@@ -139,7 +139,7 @@ nav ul li a {
 
 #form_id{
 	grid-row: 2;
-
+	
 	align-items: center;
 	justify-content: center;
 }
@@ -150,7 +150,6 @@ nav ul li a {
     grid-template-rows: 20rem;
 	background-color: beige;
 	grid-column: 1;
-	
 	align-items: center;
 	justify-content: center;
 	font-size: 40px;
