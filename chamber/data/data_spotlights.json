@@ -1,0 +1,69 @@
+{
+    "spotlights": [
+      {
+        "name": "US-Mexico nuclear energy agreement",
+        "date": "11/28/2022",
+        "website_url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=newssearch&cd=&cad=rja&uact=8&ved=2ahUKEwichqre7dP7AhXbIkQIHbTkCZIQxfQBKAB6BAgNEAE&url=https%3A%2F%2Fmexiconewsdaily.com%2Fnews%2Fmexico-us-nuclear-energy-agreement%2F&usg=AOvVaw3m49-WeOheb0OLshVDm5r8",
+        "image": "entry",
+        "paragraph": "The Department of State said in a statement that the Agreement for Cooperation in Peaceful Uses of Nuclear Energy — signed by the two countries in 2018 and approved by Mexico’s Senate in March — had entered into force.",
+        "imageurl": "images/spotlights/laguna-verde_gate.jpg"
+      },
+      {
+        "name": "Mexico: a new frontier for North American LNG [Gas in Transition]",
+        "date": "11/29/2022",
+        "website_url": "https://www.naturalgasworld.com/mexico-a-new-frontier-for-north-american-lng-gas-in-transition-102309",
+        "image": "natural_gas_world",
+        "paragraph": "With many of the best US locations taken, developers are looking to Mexico as a means of increasing US gas’ access to growing world LNG markets and Asia in particular. State support for such projects now appears to have firmed, but transmission bottlenecks pose problems.",
+        "imageurl": "images/spotlights/natual_gas_world.jpg"
+      },
+      {
+        "name": "Crude Declines on Potential Russian Oil",
+        "date": "11/29/2022",
+        "website_url": "https://www.nasdaq.com/articles/crude-declines-on-potential-russian-oil-price-cap-rising-covid-19-cases-in-china",
+        "image": "crude_nasdaq",
+        "paragraph": "New Fortress Energy announced that it has finalized its agreements with Petróleos Mexicanos (“Pemex”), Mexico’s state-owned oil company, to develop and operate an integrated upstream and natural gas liquefaction project off the coast of Veracruz in Southeastern Mexico.",
+        "imageurl": "images/spotlights/crude_nasdaq.jpg"
+      },
+      {
+        "name": "TC Energy increases its long-term growth outlook",
+        "date": "11/29/2022",
+        "website_url": "https://www.tcenergy.com/announcements/2022-08-04-tc-energy-and-mexicos-comision-federal-de-electricidad-announce-a--first-of-its-kind-strategic-partnership/",
+        "image": "tc_enegy",
+        "paragraph": "TC Energy and Mexico’s Comisión Federal de Electricidad (CFE) formalized a strategic alliance that is expected to benefit millions of people through increased access to clean and reliable energy.",
+        "imageurl": "images/spotlights/tc_enegy.jpg"
+      },
+      {
+        "name": "Mexico Celebrates a New Oil Refinery on Its Way to Its Energy Independence Goal",
+        "date": "11/29/2022",
+        "website_url": "https://www.instituteforenergyresearch.org/international-issues/mexico-celebrates-a-new-oil-refinery-on-its-way-to-its-energy-independence-goal/",
+        "image": "institute_for_energy_research",
+        "paragraph": "Mexico’s newest oil refinery is not yet operational since it is behind schedule and over budget, but President Andrés Manuel López Obrador announced the refinery as a centerpiece to his goal of securing Mexico’s energy independence, which President Trump had secured for Americans in 2019 and which President Biden is destroying through his energy and climate policies.",
+        "imageurl": "images/spotlights/institute_for_energy_research.jpg"
+      },
+      {
+        "name": "",
+        "date": "",
+        "website_url": "",
+        "image": "",
+        "paragraph": "",
+        "imageurl": "images/spotlights/"
+      },
+      {
+        "name": "",
+        "date": "",
+        "website_url": "",
+        "image": "",
+        "paragraph": "",
+        "imageurl": "images/spotlights/"
+      },
+      {
+        "name": "",
+        "date": "",
+        "website_url": "",
+        "image": "",
+        "paragraph": "",
+        "imageurl": "images/spotlights/"
+      }
+    ]
+  }
+  
