@@ -49,11 +49,11 @@
                     <nav id="primary_nav">
                         <button id="x_button"><span>x</span></button>
                         <ul>
-                            <li><a href="index.html" class="active" >Home</a></li>
+                            <li><a href="index.html"  >Home</a></li>
                             <li><a href="discover.html">Discovery</a></li>
                             <li><a href="directory.html">Directory</a></li>
                             <li><a href="join.html" >Join</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="contact.html" class="active">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -77,39 +77,41 @@
         <div class="date"></div>
 
     </header>
-    <main>
+    <main id="contact_page">
         <!--
         Suggested content includes contact information for the chamber, office hours,
          points of contact or board of director information, 
          a small form for general inquiries
         -->
-    <form id="form_id" action="thankyou.html" method="get" class="form-join">
+        <div id="title_contact"><h3>Veracruz Chamber Commerce</h3></div>
+        <p> Email: veracruz_chamber_contact@veracruzcc.com</p>
+       
+       <p> Adress: Bv. Adolfo Ruíz Cortines 3497, Col, Ylang Ylang, 94298 Boca del Río, Ver.</p>
+       <p><code>
+        <p>Office Hours:    Monday	9AM-3PM </p>
+        <pre>               Tuesday	9AM-3PM </pre>
+        <pre>               Wednesday 9AM-3PM </pre>
+        <pre>               Thursday 9AM-3PM </pre>
+        <pre>               Friday 9AM-3PM </pre>
+        <pre>               Saturday 9AM-3PM </pre>
+        <pre>               Sunday	Closed </pre> </code>
+
+    <form id="contact_form" action="thankyou_contact.html" method="get" class="form-join">
         <fieldset>
             <legend class="form-join">Information</legend>
             <label for="first_name">First name: </label> <input name='first_name' id='first_name' type='text'
                 required> <br>
             <label for="last_name">Last name: </label><input name='last_name' id='last_name' type='text' required>
             <br>
-            <label for="position">Business position title: </label><input name='position' id='position' type='text'
-                pattern="[a-zA-Z_-]{1,15}" title="Username should only contain lowercase letters. e.g. john">
-            <br>
+            
             <label for="email">Email: </label> <input name='email' id='email' type='email'
                 placeholder="example@gmail.com" required> <br>
-            <label for="cell_phone">Cell phone number: </label><input name='cell_phone' id='cell_phone' type='tel'
-                required> <br>
+            
             <label for="business_name_title">Business name/title:</label><input id='business_name_title'
                 name='business_name_title' type='text' pattern="[a-zA-Z -]{7,}"
                 title="Username should only contain lowercase letters. e.g. john"> <br>
-            <label for="membership_level_select">Member level:</label><select id="membership_level_select"
-                name="membership_level_select">
-
-                <option value="np_membership">NP Membership </option>
-                <option value="bronze_membership">Bronze Membership</option>
-                <option value="silver_membership">Silver Membership</option>
-                <option value="gold_membership">Gold Membership</option>
-
-            </select> <br>
-            <label for="message">Business description:</label>
+            
+            <label for="message">comment/question:</label>
             <br>
             <textarea name="message" id="message" rows="10" cols="30">
 
