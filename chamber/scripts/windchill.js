@@ -42,6 +42,8 @@ function displayResults(weatherData) {
     let desc_capitalize = desc.toUpperCase();
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc_capitalize);
+    weatherIcon.setAttribute('width', "115px");
+    weatherIcon.setAttribute('height', "25px" );
     //    captionDesc.textContent = desc_capitalize;
 
     wind_chill_factor = 0;

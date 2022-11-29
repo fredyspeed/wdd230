@@ -348,17 +348,17 @@ aside {
 }
 
 #directory article,
-#directory section {
+#directory section,#section_five section  {
 	margin: 0.75rem;
 }
 
-#directory section {
+#directory section,#section_five section  {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color: beige;
 }
 
-#directory .grid {
+#directory .grid, #section_five .grid  {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
@@ -374,12 +374,12 @@ aside {
 	align-items: center;
 }
 
-#directory .grid section {
+#directory .grid section, #section_five section {
 	flex-direction: column;
 	text-align: center;
 }
 
-#directory .grid section > * {
+#directory .grid section > *, #section_five section {
 	margin: 0.1rem;
 }
 
@@ -397,16 +397,16 @@ aside {
 	display: none; /* smaller viewports only */
 }
 
-#directory section h3 {
+#directory section h3, #section_five section h3 {
 	font-size: 1.5rem;
 }
 
-#directory section a {
+#directory section a, #section_five section a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
 }
 
-#directory img {
+#directory img, #section_five img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
