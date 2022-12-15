@@ -462,12 +462,12 @@ aside {
 	margin: .3rem 1vw;
 }
 
-#thankyou_page_specialty_drink{
+#aboutus_page{
 	margin: .3rem 2vw;
 	/*padding: .9rem;*/
 	background-color: rgb(255, 152, 0);
 	/*padding: .2rem 2vw;*/
 	border: 1px solid rgb(165, 186, 139);
-	height: 8rem;
+	height: 24rem;
 
 }

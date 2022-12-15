@@ -118,7 +118,33 @@ fetch(requestURL)
     console.log(text_formated);
     let display_message = document.getElementById("message");
     display_message.value = text_formated;
+    record_drink_send(first_name_recipe,date_recipe);
 }
 
+
+function record_drink_send(first_name_record,date_record) {
+  if (!localStorage.getItem("number_drink_send")) {
+    record_send(first_name_record,date_record);   
+  } else {
+    increase_send(first_name_record,date_record);
+  }
+	
+}
   
-  
+function record_send(first_name_record,date_record){
+  localStorage.setItem("number_drink_send", 1);
+  let name_sends = "name"+1;
+  localStorage.setItem(`${name_send}`,first_name_record);
+  let date_sends = "date"+1;
+  localStorege.setItem(`${date_sends}`,date_record);
+}
+
+function increase_send(first_name_record,date_record){
+  let number = localStorage.getItem("number_drink_send");
+  number_inc = parseInt(number)+1;
+  localStorage.setItem("number_drink_send", number_inc);
+  let name_sends = "name"+number_inc;
+  localStorage.setItem(`${name_send}`,first_name_record);
+  let date_sends = "date"+number_inc;
+  localStorege.setItem(`${date_sends}`,date_record);
+}
