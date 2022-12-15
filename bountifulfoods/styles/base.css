@@ -89,7 +89,7 @@ nav a:hover {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: rgb(1, 1, 1);
 }
 
 nav {
@@ -307,7 +307,7 @@ button{
 
 #section_three{
 	display:flex;
-	background-color: rgb(59, 157, 255);
+	background-color: rgb(32, 61, 102);
 	color:#ffffff
 
 }
