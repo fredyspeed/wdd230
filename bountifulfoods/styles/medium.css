@@ -1,0 +1,96 @@
+@media only screen and (min-width: 44rem){
+    #fresh_page {
+        display: grid;
+        grid-template-rows: 8rem 8rem 8rem 8rem 8rem;
+        grid-template-columns: 1fr 1fr;     
+    }
+
+    #section_one {
+        grid-row: 1-2  ;
+        grid-column: span 2;
+    }
+    
+    #section_two {
+        grid-row: 3;
+        grid-column: span 2;
+    }
+
+    #section_three {
+        grid-row: 4;
+        grid-column: 1;
+        display:flex;
+        justify-content: space-between;
+    }
+    #section_four {
+        grid-row: 4;
+        grid-column: 2;
+    }
+    
+    #section_five {
+        grid-row: 5;
+        grid-column: span 2;
+        
+    }
+
+    aside {
+        width: 45%;
+        height: 6rem;
+        margin-left: .5rem;     
+    }
+
+
+
+    /* page discover */
+    #body_content{
+        display:grid;
+        grid-template-columns: 1fr 300px 1fr;
+    
+    }
+    
+    /* join page */
+    
+#join_page{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+	background-color: beige;
+}
+#membership_level{
+    grid-row: 1;
+	grid-column: 1;
+	
+	justify-self: center;
+	
+}
+
+#form_id{
+    grid-row:1;
+	grid-column: 2;
+}
+
+/* main join */
+
+
+    #script_visits{
+        grid-column: 3;
+        align-items: center ;
+        justify-content: center;
+    }
+    
+    #demografic_data{
+        grid-column: 1/ span 3;
+        align-items: center ;
+        justify-content: center;
+    }
+    
+    #column_images{
+        grid-column: 2;
+        align-items: center ;
+        justify-content: center;
+        
+    }  
+
+    .img_column:hover {
+        border-radius: 15px 75px 15px 75px;
+    }
+}
