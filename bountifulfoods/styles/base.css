@@ -1,6 +1,9 @@
+* {
+	border-radius: 4px;
+}
 
 header {
-    background-color: rgb(172, 244, 194);
+    background-color: rgb(76, 175, 80);
 }
 nav a:hover {
 	background-color: rgb(77, 185, 109);
@@ -104,6 +107,7 @@ nav ul li a {
     text-decoration:none;
     color: #333;
     border-top: 1px solid rgb(0,0,0, 0.5);
+	
 }
 
 
@@ -111,7 +115,7 @@ nav ul li a {
 
 #home_page{
 	display: grid;
-    grid-template-rows: 8rem 8rem 8rem 8rem 16rem;
+    grid-template-rows: 24% 19% 19% 19% 19%;
 	
 }
 /* for discover home */
@@ -120,6 +124,8 @@ nav ul li a {
 	padding: 2rem;
 	    
 }
+
+
 .column_images{
 	width: 300px;
 }
@@ -187,18 +193,52 @@ nav ul li a {
 
 section {
 	margin: .3rem 1vw;
-	padding: .9rem;
-	background-color: rgb(222, 243, 196);
+	/*padding: .9rem;*/
+	background-color: rgb(255, 152, 0);
 	/*padding: .2rem 2vw;*/
 	border: 1px solid rgb(165, 186, 139);
 }
+#section_one{
+	background-color: rgb(248, 248, 248);
+	border: 0;
+}
 
+.slides_products {display:none;}
+.slides{
+	padding: 0;
+	margin: 0;
+}
+#text_content_section_two{
+	display: flex;
+
+}
+#text_content_section_two img{
+	margin: 1%;
+	margin-right:1%;
+	width: 200px;
+	height: 100px;
+
+}
+
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.slides.w3-display-left{margin-top:50%;left:5%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.slides.w3-display-right{margin-top:50%;right:5%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
 aside {
 	border: 1px solid rgb(165, 186, 139);
 	height: 6rem;
 	padding: .2rem 2vw;
 }
 
+#third_line_weather{
+	padding-left: 3%;
+}
+
+#title_forecast h3{
+	align-items: center;
+	text-align:center;
+	
+}
 #aside_three {
 	display:none;
 }
@@ -207,7 +247,7 @@ aside {
 
 
 footer{	
-	background-color: rgb(172, 244, 194);	
+	background-color: rgb(76, 175, 80);	
 }
 .footer_first_line{
 	display: flex; 
@@ -267,7 +307,7 @@ button{
 
 #section_three{
 	display:flex;
-	background-color: #5e55e1;
+	background-color: rgb(59, 157, 255);
 	color:#ffffff
 
 }
@@ -415,4 +455,19 @@ aside {
 	.list section img {
 		display: block;
 	}
+}
+
+#fresh_page{
+	background-color:  rgb(255, 152, 0);
+	margin: .3rem 1vw;
+}
+
+#thankyou_page_specialty_drink{
+	margin: .3rem 2vw;
+	/*padding: .9rem;*/
+	background-color: rgb(255, 152, 0);
+	/*padding: .2rem 2vw;*/
+	border: 1px solid rgb(165, 186, 139);
+	height: 8rem;
+
 }

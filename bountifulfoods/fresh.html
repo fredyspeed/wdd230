@@ -70,64 +70,60 @@
             <div class="date"></div>
     
         </header>
-        <main id="home_page">
+        <main id="fresh_page">
+               
+            <form id="form_id" action="thank_specialty_drink.html" method="get" class="form-join">
+                <fieldset>
+                    <legend class="form-join">Speciality drink</legend>
+                    <label for="first_name">First name: </label> <input name='first_name' id='first_name' type='text'
+                        required> <br>
+                    
+                    <label for="email">Email: </label> <input name='email' id='email' type='email'
+                        placeholder="example@gmail.com" required> <br>
+                    <label for="cell_phone">Cell phone number: </label><input name='cell_phone' id='cell_phone' type='tel'
+                        required> <br>
+                        <fieldset>
+                    <legend for="select_fruts"> Selecction of three fruit for the drink</legend>
+                     <label for="select_fruit_one">Fruit one:</label><select id="select_fruit_one"
+                        name="select_fruit_one">
     
-            <section id="section_one">
-                <div class="slides w3-content w3-display-container">
-                    <img class="slides_products" src="images/production/pexels-wolfram-k-804170.jpg" style="width:100%" style="height:100%">
-                    <img class="slides_products" src="images/production/pexels-viktoria-slowikowska-5678050.jpg" style="width:100%" style="height:100%">
-                    <img class="slides_products" src="images/production/pexels-viktoria-slowikowska-5677922.jpg" style="width:100%" style="height:100%">
-                    <img class="slides_products" src="images/production/pexels-simon-berger-966416.jpg" style="width:100%" style="height:100%">
-                  
-                    <!--<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-                    -->
-                </div>
+                        <option value="np_membership">NP Membership </option>
+                        <option value="bronze_membership">Bronze Membership</option>
+                        <option value="silver_membership">Silver Membership</option>
+                        <option value="gold_membership">Gold Membership</option>
     
-            </section>
-            <section id="section_two">
-                <div id="text_content_section_two">
-                    <h3 id="title_section_two">Call to action  </h3>
-                    <p id="subtitle_section_two" > <a href="fresh.html">To make your own fruit drink mix.  Fresh page.</a></p>
-                    <a href="fresh.html"><img id="imagen_left" src="images/production/pexels-polina-tankilevitch-4443437_300.jpeg" alt="juice"></a>
-                </div>
-            </section>
-            <section id="section_three">
-                <div id="first_line_weather">
-                    <h3 id="weather_title">Weather </h3>
-                    <div id="weather_imagen_temperature">
-                        <img id="weather_imagen" src="#" alt="Weather">
+                    </select> <br>
+                    <label for="select_fruit_two">Fruit two:</label><select id="select_fruit_two"
+                    name="select_fruit_two">
+
+                    <option value="np_membership">NP Membership </option>
+                    <option value="bronze_membership">Bronze Membership</option>
+                    <option value="silver_membership">Silver Membership</option>
+                    <option value="gold_membership">Gold Membership</option>
+
+                </select> <br>
+                <label for="select_fruit_three">Fruit three:</label><select id="select_fruit_three"
+                name="select_fruit_three">
+
+                <option value="np_membership">NP Membership </option>
+                <option value="bronze_membership">Bronze Membership</option>
+                <option value="silver_membership">Silver Membership</option>
+                <option value="gold_membership">Gold Membership</option>
+
+            </select> <br>
+            </fieldset>
+                    <label for="message">add special instructions if needed:</label>
+                    <br>
+                    <textarea name="message" id="message" rows="10" cols="30">
     
-                        <p id="weather_temperature"><span></span></p>
-                    </div>
-                </div>
-                <div id="second_line_weather">
-                    <p id="figcaption"> Partly Cloudy</p>
-                    <hr id="line_weather">
-                    <p id="wind_speed"><span>Wind Speed: </span> <span id="wind_speed_span"> </span> </p>
-                    <!--<p id="wind_chill"> <span>Wind Chill: </span> <span id="wind_chill_span"> </span></p> -->
-                    <p id="current-humidity"><span>Humilidy:</span> <span id="current_humidity_span"> </span></p>
-                </div>
-                <div id="third_line_weather">
-                    <p id="title_forecast"><h3>Forecast</h3> </p>
-                    <p ><span> <strong>1 ) </strong></span><span id="one_day_forecast"></span><br> 
-                    <span> <strong>2 ) </strong> </span><span id="two_day_forecast"></span><br>
-                    <span> <strong>3 ) </strong> </span><span id="three_day_forecast"></span></p>
-                </div>
-            </section>
-            <section id="section_four">
-                <div id="text_content_section_four">
-                    <h3 id="title_section_four">Speciality Drinks</h3>
-                    <p><img src="#" alt="inauguration" width="100" height="48"></p>
-                    <p id="subtitle_section_four"> Veracruzana Athens resurfaces with the Xalapa </p>
-                    <p id="text_section_four"> Veracruzana Athens resurfaces with the Xalapa International Festival and its Culture
-                        They program more than 130 activities in 35 venues</p>
-                </div>
-            </section>
-            <section id="section_five">
-                <h3 id="title_summary">Sumary Information</h3>
-            </section>
-          
+                    </textarea> <br>
+    
+                    <input type="hidden" id="date" name="date" value=""> <br>
+                    <input type="submit" value="Send!">
+                </fieldset>
+    
+    
+            </form>
         </main>
         <footer>
             <div class="footer_first_line">
