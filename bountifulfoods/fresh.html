@@ -71,7 +71,7 @@
     
         </header>
         <main id="fresh_page">
-               
+            onclick="showMessage()"
             <form id="form_id" action="thank_specialty_drink.html" method="get" class="form-join">
                 <fieldset>
                     <legend class="form-join">Speciality drink</legend>
@@ -87,29 +87,19 @@
                      <label for="select_fruit_one">Fruit one:</label><select id="select_fruit_one"
                         name="select_fruit_one">
     
-                        <option value="np_membership">NP Membership </option>
-                        <option value="bronze_membership">Bronze Membership</option>
-                        <option value="silver_membership">Silver Membership</option>
-                        <option value="gold_membership">Gold Membership</option>
+                       
     
                     </select> <br>
                     <label for="select_fruit_two">Fruit two:</label><select id="select_fruit_two"
                     name="select_fruit_two">
 
-                    <option value="np_membership">NP Membership </option>
-                    <option value="bronze_membership">Bronze Membership</option>
-                    <option value="silver_membership">Silver Membership</option>
-                    <option value="gold_membership">Gold Membership</option>
+                    
 
                 </select> <br>
                 <label for="select_fruit_three">Fruit three:</label><select id="select_fruit_three"
                 name="select_fruit_three">
 
-                <option value="np_membership">NP Membership </option>
-                <option value="bronze_membership">Bronze Membership</option>
-                <option value="silver_membership">Silver Membership</option>
-                <option value="gold_membership">Gold Membership</option>
-
+                
             </select> <br>
             </fieldset>
                     <label for="message">add special instructions if needed:</label>
@@ -118,10 +108,10 @@
     
                     </textarea> <br>
     
-                    <input type="hidden" id="date" name="date" value=""> <br>
-                    <input type="submit" value="Send!">
+                    
                 </fieldset>
-    
+                <input type="hidden" id="date" name="date" value=""> <br>
+                <input type="button" onclick="showMessage()" value="submit" />
     
             </form>
         </main>
@@ -158,8 +148,7 @@
         </footer>
     
         <script src="scripts/hamburger_button.js"></script>
-        <script src="scripts/weatherapi_carlsbad.js"></script>
-        <script src="scripts/slides.js"></script>
+        <script src="scripts/script_fruit.js"></script>
         <script src="scripts/date_script.js"></script>
        
     </body>

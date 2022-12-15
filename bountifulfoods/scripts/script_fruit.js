@@ -1,33 +1,24 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const fruit_one_select = document.querySelector("#select_fruit_one");
+const fruit_two_select = document.querySelector("#select_fruit_two");
+const fruit_three_select = document.querySelector("#select_fruit_three");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
 
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
 /* to populate the sección with the data about commerce */
-const requestURL = 'https://fredyspeed.github.io/wdd230/chamber/data/data.json';
-const article_tag = document.querySelector('article');
+const requestURL = 'https://fredyspeed.github.io/wdd230/bountifulfoods/data/fruit.json';
+let fruit_list_search = [];
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
     console.table(jsonObject); 
-     const commerces = jsonObject['commerces'];
-     commerces.forEach(displayCommerces);
+     const fruit_list = jsonObject;
+     fruit_list_search = fruit_list;
+     fruit_list.forEach(display_fruit);
     });
+
 /*
 
 <img src="https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg" alt="Payson Utah Temple" />
@@ -38,118 +29,96 @@ fetch(requestURL)
 */
 
 
-	function displayCommerces(commerce) {
+	function display_fruit(fruit) {
 		// Create elements to add to the document
     //<option value="np_membership">NP Membership </option>
 		
-		let section = document.createElement('section');
-		let img = document.createElement('img');
-		let h4_name =document.createElement('h4');
-		let p_address = document.createElement('p');
-		let p_numbers_thelefone = document.createElement('p');
-		let a_link = document.createElement('a');
-		let p_open = document.createElement('p');
-		let p_close = document.createElement('p');
-		
-		// Change the textContent property of the h2 element to contain the prophet's full name
-		
-		h4_name.innerHTML = `${commerce.name} `;
-		let commerce_address = `${commerce.address}`;
-	    p_address.textContent = `address: ${commerce_address.substring(0,8)}...`;
-		let list_telephones = ""; 
-		if (commerce.phone_numbers.length > 1){
-			commerce.phone_numbers.forEach(phone => list_telephones += phone + "  ");
-			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}...`;
-		}
-		else{
-			p_numbers_thelefone.textContent = `${commerce.phone_numbers[0]}`;
-		}
+		let option_tag = document.createElement('option');
+    //console.log(fruit.name);
+    option_tag.setAttribute('value', fruit.name);
+		option_tag.innerHTML= fruit.name;
+    let option_tag_two = document.createElement('option');
+    //console.log(fruit.name);
+    option_tag_two.setAttribute('value', fruit.name);
+		option_tag_two.innerHTML= fruit.name;
+    let option_tag_three = document.createElement('option');
+    //console.log(fruit.name);
+    option_tag_three.setAttribute('value', fruit.name);
+		option_tag_three.innerHTML= fruit.name;
 
-		   
-		//p_numbers_thelefone.textContent = `${list_telephones}`;
-		a_link.textContent = "url direction";
-		p_open.textContent = `open: ${commerce.open}`; 
-        p_close.textContent = `close: ${commerce.close}`;
-		// Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-		img.setAttribute('src', commerce.imageurl);
-		img.setAttribute('alt', commerce.image );
-    img.setAttribute('width', "345px");
-		img.setAttribute('height', "75px" );
-		a_link.setAttribute('href', commerce.website_url);
-		p_address.setAttribute('title', commerce_address);
-		p_numbers_thelefone.setAttribute('title', list_telephones);
+    fruit_one_select.appendChild(option_tag);
+		fruit_two_select.appendChild(option_tag_two);
+    fruit_three_select.appendChild(option_tag_three);
 	  
-		// Add/append the section(card) with the h2 element
-		section.appendChild(img);
-		section.appendChild(h4_name);
-		section.appendChild(p_address);
-		section.appendChild(p_numbers_thelefone);
-		section.appendChild(a_link);
-		section.appendChild(p_open);
-		section.appendChild(p_close);
-		
-		// Add/append the existing HTML div with the cards class with the section(card)
-		article_tag.appendChild(section);
-	  }
-/*
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const cards = document.querySelector('.cards');
-
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject); 
-     // temporary checking for valid response and data parsing
-     const prophets = jsonObject['prophets'];
-     prophets.forEach(displayProphets);
-    });
-
-  function prophets_number_ends(n){
-    if (n == 1){
-        return "st";
-    }
-    if (n == 2){
-        return "nd";
-    }
-    if (n== 3){
-        return "rd";
-    }
-    if (n > 3){
-        return "th";
-    } 
   }
-
-  function displayProphets(prophet) {
-    // Create elements to add to the document
-    
-    let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let h3_birth =document.createElement('h3');
-    let h3_birth_place = document.createElement('h3');
-    let portrait = document.createElement('img');
-    // for place the number of precidenci
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-  
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${prophets_number_ends(prophet.order)} Latter-day President`);
-    portrait.setAttribute('loading', 'lazy');
-  
-    // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    // This is a part the activity ask add
-    //Add two other components for the birth date and birth place
-    h3_birth.textContent = `Date of Birth: ${prophet.birthdate}`;
-    h3_birth_place.textContent = `Place of Birth: ${prophet.birthplace}`;
-    card.appendChild(h3_birth);
-    card.appendChild(h3_birth_place);
-    card.appendChild(portrait);
-    
-  
-    // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+  function showMessage(){
+    /* the input values of the order 
+    (7 inputs = first name, email, phone, 
+    three selected fruits, and special instructions),
+    the order date, and the total amount of carbohydrates,
+    protein, fat, sugar, and calories*/
+    //console.log("a[" + index + "] = " + element);
+    let message = document.getElementById("message").value;
+    let first_name_recipe = document.getElementById("first_name").value;
+    let email_recipe = document.getElementById("email").value;
+    let cell_phone_recipe = document.getElementById("cell_phone").value;
+    let fruite_one = document.getElementById("select_fruit_one").value;
+    let fruite_two = document.getElementById("select_fruit_two").value;
+    let fruite_three = document.getElementById("select_fruit_three").value;
+    let date_recipe = document.getElementById("date").value;
+    let total_carbohydrates = 0;
+    let total_protein = 0;
+    let total_fat = 0;
+    let total_sugar = 0;
+    let total_calories = 0;
+    for (i = 0; i < fruit_list_search.length; i++) {
+      element = fruit_list_search[i];
+      //console.log(`${element.name} == ${fruite_one}`);
+    if(element.name == fruite_one){
+      console.log(`second ${parseFloat(element.nutritions.carbohydrates)}`);
+      total_carbohydrates += parseFloat(element.nutritions.carbohydrates);
+      total_protein += parseFloat(element.nutritions.protein);
+      total_fat += parseFloat(element.nutritions.fat);
+      total_sugar += parseFloat(element.nutritions.sugar);
+      total_calories += element.nutritions.calories;
+    }
+    if(element.name == fruite_two){
+      console.log(`second ${parseFloat(element.nutritions.carbohydrates)}`);
+      total_carbohydrates += parseFloat(element.nutritions.carbohydrates);
+      total_protein += parseFloat(element.nutritions.protein);
+      total_fat += parseFloat(element.nutritions.fat);
+      total_sugar += parseFloat(element.nutritions.sugar);
+      total_calories += element.nutritions.calories;
+    }
+    if(element.name == fruite_three){
+      console.log(`second ${parseFloat(element.nutritions.carbohydrates)}`);
+      //console.log(`carbohidrates ${carbohydrates}`);
+      total_carbohydrates += parseFloat(element.nutritions.carbohydrates);
+      total_protein += parseFloat(element.nutritions.protein);
+      total_fat += parseFloat(element.nutritions.fat);
+      total_sugar += parseFloat(element.nutritions.sugar);
+      total_calories += element.nutritions.calories;
+    }
   }
-*/
+    let text_formated = "";
+    text_formated =` first name: ${first_name_recipe} \n`;
+    text_formated +=  `email: ${email_recipe} \n`; 
+    text_formated +=  `phone: ${cell_phone_recipe} \n`;    
+    text_formated +=  `first fruit: ${fruite_one} \n`; 
+    text_formated +=  `second fruit: ${fruite_two} \n`; 
+    text_formated +=  `third fruit: ${fruite_three} \n`; 
+    text_formated +=  `special instructions: ${message} \n`;
+    text_formated +=  `date: ${date_recipe} \n`;
+    text_formated +=  `total carbohydrates: ${total_carbohydrates.toFixed(2)} \n`; 
+    text_formated +=  `total protein: ${total_protein.toFixed(2)} \n`; 
+    text_formated +=  `total fat: ${total_fat.toFixed(2)} \n`; 
+    text_formated +=  `total sugar: ${total_sugar.toFixed(2)} \n`; 
+    text_formated +=  `total calories: ${total_calories} \n`;
+
+    console.log(text_formated);
+    let display_message = document.getElementById("message");
+    display_message.value = text_formated;
+}
+
+  
+  
